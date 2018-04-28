@@ -10,6 +10,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { EducationComponent } from './education/education.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
     ProjectsComponent,
     EducationComponent,
     NavbarComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
