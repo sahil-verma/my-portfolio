@@ -9,8 +9,8 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
 import { ProjectsComponent } from './projects/projects.component';
 import { EducationComponent } from './education/education.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { CommentsComponent } from './comments/comments.component';
 import { FooterComponent } from './footer/footer.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -22,8 +22,8 @@ import { FooterComponent } from './footer/footer.component';
     ProjectsComponent,
     EducationComponent,
     NavbarComponent,
-    CommentsComponent,
-    FooterComponent
+    FooterComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule
