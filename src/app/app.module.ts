@@ -23,13 +23,9 @@ import { ContactComponent } from './contact/contact.component';
     ProjectsComponent,
     EducationComponent,
     NavbarComponent,
-<<<<<<< HEAD
-    FooterComponent,
-    ContactComponent
-=======
+    ContactComponent,
     LandingPageComponent,
     FooterComponent
->>>>>>> 147e41df4aa1664a3ff46d9fea168fcc5f901cb9
   ],
   imports: [
     BrowserModule

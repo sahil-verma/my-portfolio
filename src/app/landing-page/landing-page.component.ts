@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import 'bulma/css/bulma.css'
 
 @Component({
   selector: 'app-landing-page',
