@@ -9,7 +9,7 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
 import { ProjectsComponent } from './projects/projects.component';
 import { EducationComponent } from './education/education.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { CommentsComponent } from './comments/comments.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 import { FooterComponent } from './footer/footer.component';
 
 
@@ -22,7 +22,7 @@ import { FooterComponent } from './footer/footer.component';
     ProjectsComponent,
     EducationComponent,
     NavbarComponent,
-    CommentsComponent,
+    LandingPageComponent,
     FooterComponent
   ],
   imports: [
