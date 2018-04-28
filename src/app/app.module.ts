@@ -11,6 +11,7 @@ import { EducationComponent } from './education/education.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { FooterComponent } from './footer/footer.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -22,8 +23,13 @@ import { FooterComponent } from './footer/footer.component';
     ProjectsComponent,
     EducationComponent,
     NavbarComponent,
+<<<<<<< HEAD
+    FooterComponent,
+    ContactComponent
+=======
     LandingPageComponent,
     FooterComponent
+>>>>>>> 147e41df4aa1664a3ff46d9fea168fcc5f901cb9
   ],
   imports: [
     BrowserModule
