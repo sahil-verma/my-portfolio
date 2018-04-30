@@ -1,17 +1,39 @@
-<div id="education">
-  <h1>Education</h1>
-  <div class="row">
-    <div class="col-6">
-      <div>
-        <p>Georgian College | Computer Programmer - 2016 – 2018 (expected)</p>
-        <p>2-year Diploma in Computer programming. Program Outline</p>
-      </div>
-    </div>
-    <div class="col-6">
-        <div>
-          <p>Gobindgarh Public School | Grade 1 to 12 (1999 - 2015)</p>
-          <p>Final High School grade: 82%. Studied Maths, Physics, Chemistry, Computer Science, Painting, and in high school</p>
+<section  id="education" class="hero is-dark">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title has-text-centered">Education</h1>
+      <div class="columns box">
+        <div class="column">
+          <div>
+            <p>Georgian College | Computer Programmer - 2016 – 2018</p>
+            <p>2-year Diploma in Computer programming. <a href="http://www.georgiancollege.ca/programoutlines/201710/COPR.PDF" target="_blank">Program Outline</a></p>
+            <div id="map"></div>
+            <script>
+              function initMap() {
+                var uluru = {lat: -25.363, lng: 131.044};
+                var map = new google.maps.Map(document.getElementById('map'), {
+                  zoom: 4,
+                  center: uluru
+                });
+                var marker = new google.maps.Marker({
+                  position: uluru,
+                  map: map
+                });
+              }
+            </script>
+            <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9NHd-dLTWzHf6djfoL9N3uWLhVpo0O3c&callback=initMap">
+            </script>
+          </div>
+        </div>
+        <div class="column">
+          <div>
+            <p>Gobindgarh Public School | Grade 1 to 12 (1999 - 2015)</p>
+            <p>Final High School grade: 82%. Studied Maths, Physics, Chemistry, Computer Science, Painting, and in high school</p><br>
+            <iframe src="https://www.google.com/maps/d/embed?mid=1oNhFhSYeW-QsiZHrOIkP0wvMpYs" width="100%" height="400"></iframe>
+          </div>
         </div>
       </div>
+    </div>
   </div>
-</div>
+</section>
