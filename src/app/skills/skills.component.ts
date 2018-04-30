@@ -7,19 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SkillsComponent implements OnInit {
 
-  skillGroups: Array<string[]> = [
-    [
-      'HTML',
-      'CSS',
-      'PHP',
-      'Angular'
-    ],
-    [
-      'WordPress',
-      'TypeScript',
-      'Java',
-      'C#'
-    ]
+  skills: string[] = [
+    'HTML',
+    'CSS',
+    'PHP',
+    'Angular',
+    'WordPress',
+    'TypeScript',
+    'Java',
+    'C#',
   ];
 
   constructor() { }

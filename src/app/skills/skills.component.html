@@ -4,13 +4,14 @@
       <h1 class="title">
         Skills
       </h1>
-      <div class="columns is-8" *ngFor="let skillGroup of skillGroups">
-        <div class="column is-3 is-bordered" *ngFor="let skill of skillGroup">
-          <div class="skill-tile">
-            {{ skill }}
+      <div class="columns is-multiline is-bordered">
+        <div class="column is-3" *ngFor="let skill of skills">
+          <div class="skill-title">
+              {{ skill }}
           </div>
         </div>
       </div>
+      
     </div>
  </div>
 </section>
