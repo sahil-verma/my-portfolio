@@ -8,7 +8,6 @@ import { SkillsComponent } from './skills/skills.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { EducationComponent } from './education/education.component';
-import { NavbarComponent } from './navbar/navbar.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
@@ -22,7 +21,6 @@ import { ContactComponent } from './contact/contact.component';
     WorkExperienceComponent,
     ProjectsComponent,
     EducationComponent,
-    NavbarComponent,
     ContactComponent,
     LandingPageComponent,
     FooterComponent
