@@ -8,14 +8,25 @@ import { Component, OnInit } from '@angular/core';
 export class SkillsComponent implements OnInit {
 
   skills: string[] = [
-    'HTML',
-    'CSS',
+    'HTML/HTML5',
+    'CSS/CSS3',
     'PHP',
     'Angular',
+    'Vue.JS',
+    'Node.JS',
+    'ASP.NET',
+    'JavaScript',
     'WordPress',
     'TypeScript',
     'Java',
     'C#',
+    'Bulma',
+    'Angular Material',
+    'Bootstrap/Bootstrap4',
+    'MySQL',
+    'Microsoft Azure',
+    'MongoDB',
+    'Agile Methodology',
   ];
 
   constructor() { }
